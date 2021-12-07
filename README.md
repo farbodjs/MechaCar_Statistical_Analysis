@@ -8,7 +8,7 @@ We Used R programming language and Pandas to perform statistical analysis on mul
 
 
 
-## Linear Regression to Predict MPG
+## Deliverable 1 - Linear Regression to Predict MPG
 ![image](https://user-images.githubusercontent.com/86033316/144937822-4d3a38f1-fc15-417b-b54d-210c9d4daa8f.png)
 
 ### - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -20,3 +20,8 @@ Our p-value of 5.35e-11, which is lower than the significance level of 0.05, let
 
 ### - - Does this linear model predict mpg of MechaCar prototypes effectively?
 The R-squared value of .7149 informs us that the model can predict the mpg of MechaCar prototypes effectively roughly 71% of the time. This means that there may or may not be other variables that could potentially contribute to the additional ~29% of variance that are not included in our model. Also, our absolute r-value which we can get by taking the square root of our r-squared value is 0.845, suggests that our model has a strong correlation. These outputs suggest that our model does in fact predict the mpg of MechaCar prototypes effectively.
+## Deliverable 2 - Summary Statistics on Suspension Coils
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+![image](https://user-images.githubusercontent.com/86033316/144941690-e2fbe1f5-1184-408f-a40f-3b71a70f0267.png)
+![image](https://user-images.githubusercontent.com/86033316/144941739-41d28645-fb44-4a3e-9ff2-a9e71918f12f.png)
+
