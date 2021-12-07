@@ -34,3 +34,6 @@ Based on the snippets of Lot Summary attached above, Lot 3 has a Variance of 170
 ### individual lots box plot
 ![image](https://user-images.githubusercontent.com/86033316/144942750-fad917bc-9881-4f95-a78a-507e3e39278d.png)
 
+## Deliverable 3 - T-Tests on Suspension Coils
+
+![image](https://user-images.githubusercontent.com/86033316/144943267-adeda0c1-30fa-47ac-92c8-d256fff6c83c.png)
