@@ -25,3 +25,4 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ![image](https://user-images.githubusercontent.com/86033316/144941690-e2fbe1f5-1184-408f-a40f-3b71a70f0267.png)
 ![image](https://user-images.githubusercontent.com/86033316/144941739-41d28645-fb44-4a3e-9ff2-a9e71918f12f.png)
 
+Based on the snippets of Lot Summary attached above, Lot 3 has a Variance of 170.286 per square inch which is above the design specificaiton of 100 per square inch for the MechaCar. However, based on the result of our statistical analysis which is attached above, total variance is 62.293 which meets the specifications. 
