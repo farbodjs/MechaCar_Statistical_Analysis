@@ -25,6 +25,8 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ![image](https://user-images.githubusercontent.com/86033316/144941690-e2fbe1f5-1184-408f-a40f-3b71a70f0267.png)
 ![image](https://user-images.githubusercontent.com/86033316/144941739-41d28645-fb44-4a3e-9ff2-a9e71918f12f.png)
 
+
+
 Based on the snippets of Lot Summary attached above, Lot 3 has a Variance of 170.286 per square inch which is above the design specificaiton of 100 per square inch for the MechaCar. However, based on the result of our statistical analysis which is attached above, total variance is 62.293 which meets the specifications. 
 
 ## creating box plots to visualize results for Lot and total summary
@@ -54,4 +56,7 @@ Lot #2 sample statistical t-test reveals a p-Value of 0.6072. Therefore, we conc
 ![image](https://user-images.githubusercontent.com/86033316/144945134-3d8c2d36-1d28-4f89-8c93-32e3996a9d3a.png)
 Lot #2 sample statistical t-test reveals a p-Value of 0.04168. Therefore, we conclude that the null hypothesis CAN be rejected, and the sample mean and the population mean of 1500 are NOT statistically similar.
 
+## Deliverable 4 - Study Design: MechaCar vs Competition.
 
+A very important feature in combustion vehicles that people are interested in when making a decision is how much horsepower the car has. From my point of view, horsepower, mpg and the size of engine is are very important factors that go into consumer decision making.
+We can design a new statistical model that compares how much MechaCar is different from the competiton. In this model, a null hypothesis stating that one of above mention features of MechaCar is not different from the competition and our Alternative would be the opposite. To do this we will need to perform t-test after analyzing data sets from different types of competitor vehicles. Miscellanous t-tests shall be performed to compare the population of all types of competitor vehicles with the MechaCar.
