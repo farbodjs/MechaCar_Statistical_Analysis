@@ -28,6 +28,9 @@ lot_summary <- mecha_coil  %>% group_by(Manufacturing_Lot) %>% summarize(Mean_PS
                                                                          Std_Dev_PSI=sd(PSI),
                                                                          Num_Coil=n(), .groups = 'keep')                                      
 
-#box plot: PSI Whole lot
+#box plot for total summary
 plt1 <- ggplot(mecha_coil,aes(y=PSI)) #import dataset into ggplot2
 plt1 + geom_boxplot() #add boxplot
+#box plot: PSI each indicdiual Lot
+plt2 <- ggplot(mecha_coil,aes(x=Manufacturing_Lot,y=PSI)) #import dataset into ggplot2
+plt2 + geom_boxplot()
